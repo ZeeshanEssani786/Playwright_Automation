@@ -1,0 +1,26 @@
+<RunSettings>
+	<!-- MSTest adapter -->
+	<!-- NUnit adapter -->
+	<NUnit>
+		<NumberOfTestWorkers>24</NumberOfTestWorkers>
+	</NUnit>
+	<!-- General run configuration -->
+	<RunConfiguration>
+		<MaxCpuCount>0</MaxCpuCount><!-- Run on all available CPUs -->
+		<EnvironmentVariables>
+			<SAUCE_USERNAME>oauth-zeeshanessani-96439</SAUCE_USERNAME>
+			<SAUCE_ACCESS_KEY>0328f4f2-6d32-40cb-be9a-446c23343ef5</SAUCE_ACCESS_KEY>
+			<Headless>true</Headless>
+		</EnvironmentVariables>
+	</RunConfiguration>
+	<!-- Playwright -->
+	<Playwright>
+		<BrowserTypes>chromium,firefox,edge</BrowserTypes>
+		<BrowserName>chromium</BrowserName>
+		<ExpectTimeout>5000</ExpectTimeout>
+		<LaunchOptions>
+			<Headless>false</Headless>
+			<Channel>chrome</Channel>
+		</LaunchOptions>
+	</Playwright>
+</RunSettings>
